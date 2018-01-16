@@ -482,7 +482,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 						 .flat-caption .suphead{font-size: 18px;}
 						 .flat-caption h1{font-size: 32px;line-height: 35px;}
 						 .flat-caption h2{font-size: 16px;line-height: 18px;}
-						 .flat-caption p{font-size: 12px;max-width: 400px;}
+						 .flat-caption p{font-size: 14px;max-width: 400px;}
 						 .caption2{top: 21%;}.caption3{top: 32%;}
 						 .caption4{top: 47%;}}
 						 @media (max-width: 991px){.hom-slider .flexslider .slides img{max-height: 450px;}
