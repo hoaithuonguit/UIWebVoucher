@@ -286,7 +286,142 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 						.social-icon li a.google-plus{background-image: url(../images/gplus.png);}
 						.social-icon li a.twitter{background-image: url(../images/twi.png);}
 						.social-icon li a.facebook{background-image: url(../images/f.png);}
-						/* Products page style */
+						/* fix */
+						.coupondiv {
+    border: 1px solid #d3d3d3;
+    min-width: 250px;
+    margin-bottom: 6px;
+    background-color: #fff;
+}
+.coupondiv .promotiontype {
+    padding: 15px;
+    overflow: hidden;
+}
+.promotag {
+    float: left;
+}
+.tagsale.promotagcont {
+    background: #fff;
+    color: #1fb207;
+}
+
+.promotagcont {
+    background: #fff;
+    color: #fe6f17;
+    overflow: hidden;
+    width: 70px;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 4px rgba(34,34,34,.2);
+    box-shadow: 1px 1px 4px rgba(34,34,34,.2);
+    text-align: center;
+}
+.saveamount {
+    min-height: 58px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 4px 3px 0;
+    font-weight: 700;
+    line-height: 2.5;
+}		
+.tagsale .saleorcoupon {
+    background: #1fb207;
+}
+.promotiondetails {
+    padding-left: 20px;
+    width: calc(100% - 270px);
+    word-wrap: break-word;
+    float: left;
+    font-size: 16px;
+}
+.coupontitle {
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 5px;
+    color: #222;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cpinfo {
+    display: block;
+    margin-bottom: 5px;
+    color: #222;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.coupondiv .cpbutton {
+    float: right;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    width: 150px;
+    margin-top: 35px;
+    margin-right: 15px;
+}
+.xemngayz {
+    width: 100%;
+    min-width: 110px;
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    padding: 15px 5px;
+    border: 0;
+    background: #fe6f17;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #fe6f17;
+    border-radius: 0;
+}
+.copyma {
+    width: 110px;
+    min-width: 110px;
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    padding: 15px 5px;
+    border: 0;
+    background: #fe6f17;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #fe6f17;
+    border-radius: 0;
+}
+.coupon-code {
+    position: absolute;
+    top: 0;
+    right: -45px;
+    z-index: -1;
+    min-width: 50px;
+    height: 45px;
+    padding: 0 5;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Open Sans',sans-serif;
+    border: 1px solid #ddd;
+}
+				/* Products page style */
 						.page-index{border-top: 1px solid #5c5c5c;position: relative;padding: 20px 0;color: #fff;}
 						.page-index ul{position: relative;float: left;}
 						.page-index ul li{float: left;background: url(../images/slash.png) left center no-repeat;padding: 0 10px 0 15px;}
